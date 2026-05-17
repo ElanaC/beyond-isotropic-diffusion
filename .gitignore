@@ -1,0 +1,7 @@
+.venv/
+.mplconfig/
+.DS_Store
+__pycache__/
+*.pyc
+outputs/
+*.tar.gz
