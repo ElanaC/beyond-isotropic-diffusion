@@ -1,7 +1,26 @@
-.venv/
-.mplconfig/
-.DS_Store
 __pycache__/
-*.pyc
-outputs/
-*.tar.gz
+.ipynb_checkpoints/
+.DS_Store
+
+# Local/Colab data
+data/
+runs/
+
+# Large generated artifacts/checkpoints
+*.pt
+*.pth
+*.ckpt
+*.tar
+*.zip
+
+# Colab / experiment artifacts
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+data/
+runs/
+*.pt
+*.pth
+*.ckpt
+*.tar
+*.zip
